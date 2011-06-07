@@ -32,5 +32,5 @@ src_configure() {
 src_install() {
 	dobin bin/qtgain || die
 	newicon Icons/lsongs.png qtgain.png
-	make_desktop_entry qtgain qtgain
+	make_desktop_entry qtgain QtGain
 }
