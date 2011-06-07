@@ -20,7 +20,8 @@ DEPEND="x11-libs/qt-core:4
 RDEPEND="flac? ( media-libs/flac )
 	mp3? ( media-sound/mp3gain )
 	mp4? ( media-sound/aacgain )
-	vorbis? ( media-sound/vorbisgain )"
+	vorbis? ( media-sound/vorbisgain )
+	media-sound/id3v2"
 
 S=${WORKDIR}/QtGain
 
@@ -29,7 +30,7 @@ src_configure() {
 }
 
 src_install() {
-	dobin bin/QtGain || die
+	dobin bin/qtgain || die
 	newicon Icons/lsongs.png qtgain.png
-	make_desktop_entry QtGain QtGain
+	make_desktop_entry qtgain qtgain
 }
