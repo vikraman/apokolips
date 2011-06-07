@@ -7,7 +7,7 @@ inherit eutils qt4
 
 DESCRIPTION="A simple frontend to mp3gain, vorbisgain and metaflac"
 HOMEPAGE="http://www.qt-apps.org/content/show.php/QtGain?content=56842"
-SRC_URI="http://www.qt-apps.org/CONTENT/content-files/56842-QtGain.tar.gz"
+SRC_URI="http://www.qt-apps.org/CONTENT/content-files/56842-QtGain_Source.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
