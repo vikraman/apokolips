@@ -25,4 +25,5 @@ RDEPEND="${DEPEND}
 	dev-python/munkres
 	dev-python/unidecode
 	dev-python/python-musicbrainz-ngs
-	lastgenre? ( dev-python/pylast )"
+	lastgenre? ( dev-python/pylast
+				dev-python/pyyaml )"
