@@ -15,7 +15,7 @@ EGIT_REPO_URI="git://github.com/sampsyo/beets.git"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS=""
-IUSE=""
+IUSE="lastgenre"
 
 DOCS="README.rst"
 
@@ -24,4 +24,5 @@ RDEPEND="${DEPEND}
 	media-libs/mutagen
 	dev-python/munkres
 	dev-python/unidecode
-	dev-python/python-musicbrainz-ngs"
+	dev-python/python-musicbrainz-ngs
+	lastgenre? ( dev-python/pylast )"
